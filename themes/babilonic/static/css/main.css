@@ -2,7 +2,7 @@
 * { box-sizing: border-box; }
 body.site { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color: var(--fg); background: var(--bg); line-height: 1.6; }
 .wrap { max-width: 820px; padding: 1.25rem; margin: 0 auto; }
-.site-header, .site-footer { background: black; border-bottom: 1px solid #eee; }
+.site-header, .site-footer { background: white; border-bottom: 1px solid #eee; }
 .site-footer { border-top: 1px solid #eee; border-bottom: none; }
 .brand { font-weight: 700; text-decoration: none; color: var(--fg); }
 .post-header .lead { color: var(--muted); margin-top: .5rem; }
