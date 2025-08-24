@@ -1,0 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">

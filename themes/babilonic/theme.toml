@@ -1,0 +1,9 @@
+name = "babilonic"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "A clean, single-page product theme for showcasing a color story."
+homepage = "https://example.com/"
+tags = ["minimal", "product", "single"]
+features = ["responsive", "image-hero"]
+min_version = "0.115.0"
+author = "Generated"

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body class="site">
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      </div>
+    </header>
+    <main class="site-main wrap">
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+      </div>
+    </footer>
+  </body>
+</html>

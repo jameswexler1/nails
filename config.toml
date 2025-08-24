@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Historical Nail Polish Colors"
+theme = "babilonic"
+
+[params]
+  description = "A nail color inspired by the ancient walls of Babylon."

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="listing">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+  <ul class="cards">
+    {{ range .Pages }}
+      <li class="card">
+        <a href="{{ .RelPermalink }}">
+          {{ with .Params.image }}<img src="{{ . | relURL }}" alt="{{ $.Title }} card image">{{ end }}
+          <h2>{{ .Title }}</h2>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
